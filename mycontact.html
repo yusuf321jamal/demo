@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <table align="center" cellpadding="15">
+      <tr>
+        <td>
+          <a href="mycontact.html">Contact us</a>
+        </td>
+        <td>
+          <a href="login.html">Login</a>
+        </td>
+        <td>
+          <a href="register.html">Create Account</a>
+        </td>
+        <td>
+          <a href="enquiry.html">Enquiry</a>
+        </td>
+      </tr>
+    </table>
+    <hr color="gray" size="10" />
+    <form action="save.html" method="GET" enctype="">
+      <table align="center" cellpadding="15">
+        <caption>
+          <h1>Contact us</h1>
+        </caption>
+        <tr>
+          <th>Ref No</th>
+          <td><input type="number" name="refno" value="7878787" disabled /></td>
+        </tr>
+        <tr>
+          <th>Full Name</th>
+          <td>
+            <input
+              type="text"
+              name="fname"
+              placeholder="enter your name"
+              maxlength="5"
+              size="30"
+              maxlength="10"
+              tabindex="1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Number</th>
+          <td>
+            <input
+              type="number"
+              name="mymobile"
+              placeholder="enter your mobile no."
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Email-ID</th>
+          <td>
+            <input
+              type="email"
+              tabindex="2"
+              name="myemail"
+              placeholder="enter your email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Message</th>
+          <td>
+            <textarea
+              name="mymsg"
+              maxlength="100"
+              rows="20"
+              cols="40"
+              placeholder="enter your message"
+              tabindex="3"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <button type="submit">Send Message</button>
+            <button type="reset">Reset</button>
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

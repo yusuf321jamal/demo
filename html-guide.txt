@@ -1,0 +1,188 @@
+HTML -Hypertext markup language
+       the html has collection of pre-defined tags
+       the html is used to create basic structure of web page
+       html tags are used to collect input from user and also used to display output to user via browser
+       the Html tags has limitations on property/attribute and values.due to this limitation otherb languages are required to complete project requirement
+css(cascading style sheets)
+        it has collections of only property and values.
+        it is used to change look and feel of html.
+How html & css work?
+       Responsive webpage=Html html(tags)+Css (property & values)
+
+
+HTML tag?
+<> open tag
+</> close tag
+
+Type of tag in html?
+1.input tag -it is used to collect input from user
+2.output tag -it is used to display output to user
+
+structure / syntax of html tags 
+1. dependent tags -those html tags  that has open and close separate
+       example 
+       <html> </html>
+       <h1> </h1>
+2. independent tags- those html tags that has only open 
+         example 
+         <br>
+         <img>
+    note -react jsx donot work with independent tag
+3. self closing- those html tags that open close togather
+          example 
+         <br/>
+         <img/>
+
+    note -it works with all js library and framework
+
+
+The behaviour of html tags?
+1.block level tag- those html tags that print statement in the new line by default
+2.inline tag- those html tags that print statemnt in same line by default
+=================================================
+
+=================================================
+structure of html document?
+html start to html end is called document
+=>head
+     ->Analytics /Digital Marketing
+     ->library (css,js and other library)
+=>Body
+     ->place of input and output
+     -->NOTE-; use suitable tags based on content ie dont waste memory space by selecting the tags that are too large or small  this may impact the performance of the web page
+================================================
+
+ use of h1 to h6 ?
+ ->it is called heading tag.
+ -> it use to create headline of webpage
+ -> use h1 min and max 1 time in each page for better user experience and better visibility on google search
+================================================
+
+p- use p tag to display text data in webpage .but keep a limit of min and max contents for better page performance
+min limit -one line of text data
+max limit -upto 5 line of text data for better redability
+
+for small length text data (upto 130 chars )
+label ,b ,i ,u strong
+====================================================
+
+Types of list in html?
+1. order list (ol)- 
+types of order list are given below
+      Type="1"
+      Type="A"
+      Type="a"
+      Type="I"
+      Type="i"
+
+2. un-order list (ul)-
+types of unorder list are given below
+      Type="disc"
+      Type="square"
+      Type="circle"
+      Type="none"
+
+3. definition list (dl)-
+     dt- definition title- it is used to display headline of contents
+     dd- definition details- it is used to display details about the  contents
+
+
+==================================================
+
+Table in html?
+1.method
+     =>table
+            ->caption
+            ->tr(table row)
+                  ->th(table heading)
+                  ->td(table data)
+
+
+2. method 
+     =>table
+          ->thead -it covers upper part of the table
+                ->tr
+                    ->th
+          ->tbody -it covers middle part of the table
+                 ->tr
+                    ->td
+          ->tfoot -it covers bottom part of the table
+                ->tr
+                    ->th
+
+
+=> property in table ,tr,th,td,thead,tbody,tfoot
+        1. align (left,center,right,justify)
+        2. border
+        3. cellspacing- it apply space outside of th and td
+        4. cellpadding - it apply space inside of th and td
+==================================================================
+How to link the pages 
+         <a href="" target="" title=""> Text to link </a>
+
+=>a is  tag name 
+=>href is property name that use to set path /url for next page
+=>target it is property that define where the next should open,it is 6 type 
+=>title it for digital marketing ,it introduce to search engine that what is purpose of this link.
+
+=================================================================
+
+Type of target ? 
+
+1. _self =>it open next  page in same tab . it is default target
+2. _new => it open next page in new tab only on  1st click
+3. _new => it open next page in new tab on every click
+
+Using JS 
+   4. _child
+   5. _parent
+
+Using html frameset 
+   6. user-defined - we can create own target 
+
+==================================================================
+Input Elements / tags
+
+ ->text  -1 line input
+ ->number  -1 line input 
+ ->email  -1 line input
+ ->password  -1 line input
+ ->textarea  -multi line input
+ ->select  -choose option
+ ->checkbox - check 1 or multiple
+ ->radio - choose any one
+ ->file - upload any type of file
+ ->date - choose date from date picker
+ ->color - choose color from color cube
+ ->button-->for user action button is of three types
+          ->submit
+          ->reset
+          ->button
+
+List of property for input element 
+         name- it is used to create a container that holds the value given by user.
+         placeholder- it is for input guidance
+         maxlength- it sets the limit of input as no. of character (applicable for text,email,password ,textarea)
+         size- it resizes the width of text ,email ,password .
+         tabindex- it sets the sequence of cursor movement. when we press tab.
+         readonly- it makes read only ,user cannot edit but value can pass to backend.
+         disabled- it makes read only ,user cannot edit  value and also cannot pass value to backend.
+         value- it is used to display the default value in the input element
+         class- used to link html with css and javascript
+         id- it is also used to link html with css and javascript
+         enctype- used to encrypt any file as attachment while uploading from user pc to server
+                  without encryption(encode) the 7 layer of network donot allow  to upload any file.
+
+===========================================================================================
+
+ Property in Form tag 
+          action- it is used to set the url for backend where the form data should get submitted.
+          method- it set type of communication between  client and server
+                  Types of method
+                  get - it pass data from client to server and server to client but data will be visible (and it is marked as unsecure communication)
+                  post - it pass data from client to server and server to client but data will be fully hidden and secured 
+                  put - it sends req to server for updating all values
+                  patch - it send req to server for updating only modified values
+                  delete - it send req to server for deleting specific record
+
+=========================================================================
